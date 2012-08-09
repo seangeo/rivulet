@@ -1,4 +1,7 @@
 language: ruby
 rvm:
   - 1.9.3
+before_script:
+  - psql -c 'create database rivulet_test;' -U postgres
+  - cp config/database.yml.example config/database.yml
 
