@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  database: rivulet_development
+  pool: 5
+  timeout: 5000
+  username: postgres
+
+test:
+  adapter: postgresql
+  database: rivulet_test
+  pool: 5
+  timeout: 5000
+  username: postgres
