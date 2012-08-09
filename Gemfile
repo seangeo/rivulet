@@ -20,12 +20,12 @@ end
 gem 'jquery-rails'
 
 group :test, :development do
+  gem 'rspec-rails'
   gem 'pry-rails'
   gem 'pry-debugger'
 end
 
 group :test do
-  gem 'rspec-rails'
   gem 'cucumber-rails', :require => false
 end
 
