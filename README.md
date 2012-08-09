@@ -10,6 +10,8 @@ The idea is that this will at least contain instructions for
 setting up your own instance of Rivulet on Heroku, at least,
 hopefully that will be fully automated.
 
+[![Build Status](https://secure.travis-ci.org/seangeo/rivulet.png?branch=master)](http://travis-ci.org/seangeo/rivulet)
+
 ## Questions...
 
 ### Why are you building this in 2012? RSS is Dead.
